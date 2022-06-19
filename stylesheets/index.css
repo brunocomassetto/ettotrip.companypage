@@ -34,3 +34,11 @@ body {
     color: #333;
     text-shadow: none;
 }
+
+#cor {
+    color: rgb(242, 213, 00)
+}
+
+#ativo {
+    border-bottom-color: rgb(237, 108, 48)
+}

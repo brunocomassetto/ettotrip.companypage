@@ -34,3 +34,10 @@ body {
     color: #333;
     text-shadow: none;
 }
+
+p {
+    text-align: justify;
+    text-indent: 1rem;
+    font-weight: 500;
+    font-size: large;
+}

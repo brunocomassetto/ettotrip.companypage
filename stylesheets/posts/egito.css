@@ -1,15 +1,10 @@
 body {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../pics/backhome.jpg");
-    background-size: cover;
-    background-position: center;
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    background-color: black;
 }
 .cover-container {
   max-width: 60vw;
 }
+
 
 .nav-link {
     padding: 0.25rem 0;
@@ -40,4 +35,17 @@ p {
     text-indent: 1rem;
     font-weight: 500;
     font-size: large;
+}
+
+@media (max-width: 768px) {
+    #full {
+        max-width: 100vw;
+    }
+    #logo {
+       align-items: center;
+    }
+    #logocontainer{
+        width: 100%;
+        justify-content: center;
+    }
 }

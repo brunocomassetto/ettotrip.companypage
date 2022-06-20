@@ -37,6 +37,10 @@ p {
     font-size: large;
 }
 
+#ettolaranja {
+    color: rgb(237, 108, 48)
+}
+
 @media (max-width: 768px) {
     #full {
         max-width: 100vw;
